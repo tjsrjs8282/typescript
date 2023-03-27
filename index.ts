@@ -105,3 +105,16 @@ let 버튼 = document.querySelector("#button");
 버튼?.addEventListener("click", () => {
   console.log("test");
 });
+
+// let 제목 = document.querySelector("#title");
+// //잘모샂으면 null 남음
+// //narrowing
+// if (제목 instanceof Element) {
+//   //instanceof 연산자
+//   제목.innerHTML = "반가워요";
+// }
+
+// let 버튼 = document.querySelector("#button");
+// 버튼?.addEventListener("click", () => {
+//   console.log("test");
+// });
