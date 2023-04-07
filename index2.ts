@@ -30,3 +30,12 @@ function sum3(a: number, ...nums: number[]): number {
   }
   return a + totalOfNums;
 }
+
+interface Student {
+  name: string;
+}
+
+interface Teacher {
+  name: string;
+  age: number;
+}
